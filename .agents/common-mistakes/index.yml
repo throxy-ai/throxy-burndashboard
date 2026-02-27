@@ -1,0 +1,7 @@
+global:
+  typescript:
+    description: Type safety errors and weak typing patterns.
+  react:
+    description: State, effects, and component boundary pitfalls.
+  security:
+    description: Input validation, auth, and secrets handling mistakes.

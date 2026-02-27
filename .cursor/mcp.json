@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "axiom": {
+      "url": "https://mcp.axiom.co/mcp"
+    },
+    "linear": {
+      "url": "https://mcp.linear.app/mcp"
+    },
+    "shadcn": {
+      "command": "bunx",
+      "args": [
+        "--bun",
+        "shadcn@latest",
+        "mcp"
+      ]
+    },
+    "trigger": {
+      "command": "bunx",
+      "args": [
+        "--bun",
+        "trigger.dev@latest",
+        "mcp",
+        "--dev-only"
+      ]
+    }
+  }
+}

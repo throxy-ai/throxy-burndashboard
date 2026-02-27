@@ -1,0 +1,13 @@
+[mcp_servers.axiom]
+url = "https://mcp.axiom.co/mcp"
+
+[mcp_servers.linear]
+url = "https://mcp.linear.app/mcp"
+
+[mcp_servers.shadcn]
+command = "bunx"
+args = ["--bun", "shadcn@latest", "mcp"]
+
+[mcp_servers.trigger]
+command = "bunx"
+args = ["--bun", "trigger.dev@latest", "mcp", "--dev-only"]
